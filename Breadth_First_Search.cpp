@@ -38,6 +38,7 @@ int main()
     graph[7].push_back(9);
     graph[8].push_back(10);
     graph[6].push_back(8);
+    graph[9].push_back(1);
     vector<int> distance=Breadth_First_Search(1,n);
     for(int i=1;i<=n;i++)
     {
