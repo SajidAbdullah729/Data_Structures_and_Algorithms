@@ -2,7 +2,7 @@
 using namespace std;
 vector<int> graph[11];
 
-int BORO=1e9;
+const int BORO=1e9;
 vector<int> Breadth_First_Search(int source,int n)
 {
     queue<int> q;
