@@ -13,7 +13,7 @@ int main()
     v.pop_back();//erase from back
     for(auto value:v) cout<<value<<" ";cout<<endl; // Output: 1 2 7
     set<int> st; //Creating a Set
-    st.insert(2);
+    st.insert(2); //Inserting a value in the end
     st.insert(3);
     st.insert(1);
     st.insert(7);
