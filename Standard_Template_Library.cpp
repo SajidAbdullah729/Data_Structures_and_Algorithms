@@ -20,7 +20,7 @@ int main()
     for(auto value:st) cout<<value<<" ";cout<<endl;//Output : 1 2 3 7 
     st.erase(st.find(2)); //erase a set element with find the location of the value;
     for(auto value:st) cout<<value<<" ";cout<<endl;//Output : 1 3 7 
-    map<int,int> mm;
+    map<int,int> mm; //Creating a new map
     mm[2]=1;
     mm[3]=2;
     mm[4]=3;
