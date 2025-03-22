@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<bits/stdc++.h> // Including all the necessary functions of C++ with one include for Standard Template Library
 using namespace std;
 
 int main()
@@ -25,7 +25,7 @@ int main()
     mm[3]=2;
     mm[4]=3;
     mm[5]=5;
-    cout<<mm[2]<<endl;//Output: 1
+    cout<<mm[2]<<endl; // Output: 1
 
 
     return 0;
