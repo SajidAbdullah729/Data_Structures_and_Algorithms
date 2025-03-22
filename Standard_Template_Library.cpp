@@ -3,15 +3,16 @@ using namespace std;
 
 int main()
 {
-    vector<int> v;
-    v.push_back(1);
+    vector<int> v; //Creating a vector
+    v.push_back(1); //Pushing a value in the end
     v.push_back(2);
     v.push_back(7);
     v.push_back(3);
 
-    for(auto value:v) cout<<value<<" ";cout<<endl;
+    for(auto value:v) cout<<value<<" ";cout<<endl; // Output: 1 2 7 3
     v.pop_back();//erase from back
-    set<int> st;
+    for(auto value:v) cout<<value<<" ";cout<<endl; // Output: 1 2 7
+    set<int> st; //Creating a Set
     st.insert(2);
     st.insert(3);
     st.insert(1);
