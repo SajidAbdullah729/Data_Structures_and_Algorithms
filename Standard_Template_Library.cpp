@@ -24,7 +24,7 @@ int main()
     mm[3]=2;
     mm[4]=3;
     mm[5]=5;
-    cout<<mm[2]<<endl;
+    cout<<mm[2]<<endl;//Output: 1
 
 
     return 0;
