@@ -18,6 +18,7 @@ int main()
     st.insert(7);
     for(auto value:st) cout<<value<<" ";cout<<endl;//Output : 1 2 3 7 
     st.erase(st.find(2)); //erase a set element with find the location of the value;
+    for(auto value:st) cout<<value<<" ";cout<<endl;//Output : 1 3 7 
     map<int,int> mm;
     mm[2]=1;
     mm[3]=2;
